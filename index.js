@@ -35,12 +35,14 @@ createCat('Simba','Gris',20)
 createCat('Chipie','Tapir',20)
 createCat('Caramel','Gris',20)
 createCat('Garfield','Orange',90)
+createCat('Casimodo','Orange',90)
+
 
 
 
 async function changeCatName(id, newName) {
     try {
-        // findById retourne un document et pas un tableau de documents
+        // findByID retourne un document et pas un tableau de documents
         let cat = await Cat.findById(id);
         cat.nom = newName;
         await cat.save();
