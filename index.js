@@ -62,7 +62,7 @@ async function deleteCat(id) {
     }
 }
 
-deleteCat("64a41454fe8e36367712d4eb");
+deleteCat("64a43239ded74dd441ad585f");
 
 
 let port=5000
