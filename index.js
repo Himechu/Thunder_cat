@@ -35,7 +35,7 @@ createCat('Simba','Gris',20)
 createCat('Chipie','Tapir',20)
 createCat('Caramel','Gris',20)
 createCat('Garfield','Orange',90)
-createCat('Casimodo','Orange',90)
+createCat('Casimodo','Orange',0)
 
 
 
